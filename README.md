@@ -15,6 +15,8 @@ FLOW
 
 * CloudWatch monitors logs and execution metrics
 
+  ```
+
 +---------------------+     +----------------------+     +------------------------+     +------------------------+
 |    API Gateway      | --> |   Step Functions     | --> |   Lambda Function      | --> |   S3: resizes-image-dv |
 +---------------------+     +----------------------+     +------------------------+     +------------------------+
@@ -23,7 +25,7 @@ FLOW
 +---------------------+                                                                                       
 |     CloudWatch      |                                                                                       
 +---------------------+
-
+```
 
 Prerequisites
 Before deploying, ensure the following:
